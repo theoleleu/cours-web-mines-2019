@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "plugins": [
+        "html"
+    ],
+    "extends": [
+        "airbnb-base"
+    ],
+    "rules": {
+        "lines-between-class-members": "off"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "commonjs": true
+    }
+}
+  
