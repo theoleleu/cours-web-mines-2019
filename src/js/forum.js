@@ -1,8 +1,8 @@
-import ky from 'ky';
+import ky from "ky";
 
 async function refreshMessages() {
   // GET https://ensmn.herokuapp.com/messages
-  const messages = await ky.get('https://ensmn.herokuapp.com/messages').json();
+  const messages = await ky.get("https://ensmn.herokuapp.com/messages").json();
   displayMessages(messages);
 }
 
