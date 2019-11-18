@@ -22,3 +22,37 @@ a.special {
 
   display: block; /*hidden, inline, ...*/
 }
+.important {
+  color: #0000ff;
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 10 px;
+  width: 100px;
+  height: 100px;
+}
+
+.ok {
+  color: #ff0000;
+  font-size: 10px;
+  position: relative;
+  top: 25px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+}
+.form {
+  position: relative;
+  top: -90px;
+  left: 500px;
+  width: 190px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 190px;
+  }
+}

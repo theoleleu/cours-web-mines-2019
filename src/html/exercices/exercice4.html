@@ -1,7 +1,90 @@
-Exercice 4
-
-Consignes :
-- Recopier les exercices 1 et 2 ci-dessous
-- Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur Desktop, et sur une seule colonne sur
-Mobile
-- Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les formulaires
+<article>
+  <h1>Exercice 4</h1>
+  <div class="enonce">
+    <strong>Consignes :</strong>
+    <li>Recopier les exercices 1 et 2 ci-dessous</li>
+    <li>
+      Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur
+      Desktop, et sur une seule colonne sur Mobile
+    </li>
+    <li>
+      Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les
+      formulaires
+    </li>
+  </div>
+  <div id="table" class="Table">
+    <table>
+      <thead>
+        <tr>
+          <th>Balise</th>
+          <th>Entête</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>h1</th>
+          <td>Entoure le titre</td>
+        </tr>
+        <tr>
+          <th>div</th>
+          <td>Entoure la section</td>
+        </tr>
+        <tr>
+          <th>article</th>
+          <td>Entoure l'article</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="form" class="form">
+    <form method="post">
+      <label for="nom">Nom</label>
+      <input type="text" name="Nom" id="nom" placeholder="Nom" required />
+      <label for="prenom">Prénom</label>
+      <input
+        type="text"
+        name="Prénom"
+        id="prenom"
+        placeholder="Prénom"
+        required
+      />
+      <label for="gender-male">Homme</label>
+      <input
+        type="radio"
+        id="gender-male"
+        name="gender"
+        value="male"
+        required
+      />
+      <label for="gender-female">Femme</label>
+      <input
+        type="radio"
+        id="gender-female"
+        name="gender"
+        value="female"
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
+      <label for="motdepasse">Mot de Passe</label>
+      <input
+        type="password"
+        name="Mot de Passe"
+        id="motdepasse"
+        placeholder="Mot de Passe"
+        required
+      />
+      <label for="horns"></label>
+      <label>Conditions générales</label>
+      <input type="checkbox" id="horns" name="horns" required />
+      <br />
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</article>

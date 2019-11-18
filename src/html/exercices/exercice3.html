@@ -1,7 +1,37 @@
-Exercice 3
-
-Consignes :
-- Mettre en forme l'exercice 3
-- Recopier le formulaire d'inscription précédent ci-dessous
-- Grâce au fichier style.css, mettre le texte des labels en bleu, agrandir la police dans les input texte, placer un
-bloc en position absolue à droite du champ adresse email avec un texte de votre choix en police 10px rouge.
+<article>
+    <h1>Exercice 3</h1>
+    <div class="enonce">
+        <strong>Consignes :</strong>
+        <li>Mettre en forme l'exercice 3</li>
+        <li>Recopier le formulaire d'inscription précédent ci-dessous</li>
+        <li>
+            Grâce au fichier style.css, mettre le texte des labels en bleu, agrandir
+            la police dans les input texte, placer un bloc en position absolue à
+            droite du champ adresse email avec un texte de votre choix en police 10px
+            rouge.
+        </li>
+    </div>
+    <br />
+    <form method="post">
+        <div class="important">
+            <label for="nom">Nom</label>
+            <input type="text" name="Nom" id="nom" required />
+            <label for="prenom">Prénom</label>
+            <input type="text" name="Prénom" id="prenom" required />
+            <label for="gender-male">Homme</label>
+            <input type="radio" id="gender-male" name="gender" value="male" required />
+            <label for="gender-female">Femme</label>
+            <input type="radio" id="gender-female" name="gender" value="female" required />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <label for="motdepasse">Mot de Passe</label>
+            <input type="password" name="Mot de Passe" id="motdepasse" required />
+            <label for="horns">CGU</label>
+            <input type="checkbox" id="horns" name="horns" />
+            <button type="submit">Envoyer</button>
+        </div>
+        <div class="ok">
+            <li>Coucou</li>
+        </div>
+    </form>
+</article>

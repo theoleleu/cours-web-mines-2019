@@ -1,6 +1,47 @@
-Exercice 2
-
-Consignes :
-- Mettre en forme l'exercice 2
-- Créer ci-dessous un formulaire d'inscription contenant les champs : Prénom, nom, email, mot de passe, checkbox pour
-accepter un quelconque règlement et un bouton de validation.
+<article>
+  <h1>Exercice 2</h1>
+  <div class="enonce">
+    <strong>Consignes :</strong>
+    <li>Mettre en forme l'exercice 2</li>
+    <li>
+      Créer ci-dessous un formulaire d'inscription contenant les champs :
+      Prénom, nom, email, mot de passe, checkbox pour accepter un quelconque
+      règlement et un bouton de validation.
+    </li>
+  </div>
+  <br />
+  <form method="post">
+    <div class="Nom">
+      <label for="nom">Nom</label>
+      <input type="text" name="Nom" id="nom" required />
+    </div>
+    <div class="prenom">
+      <label for="prenom">Prénom</label>
+      <input type="text" name="Prénom" id="prenom" required />
+    </div>
+    <label for="gender-male">Homme</label>
+    <input type="radio" id="gender-male" name="gender" value="male" required />
+    <label for="gender-female">Femme</label>
+    <input
+      type="radio"
+      id="gender-female"
+      name="gender"
+      value="female"
+      required
+    />
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+    <div>
+      <label for="motdepasse">Mot de Passe</label>
+      <input type="password" name="Mot de Passe" id="motdepasse" required />
+    </div>
+    <div class="checkbox-form">
+      <label for="horns"></label>
+      <label>Conditions générales</label>
+      <input type="checkbox" id="horns" name="horns" />
+    </div>
+    <button type="submit">Envoyer</button>
+  </form>
+</article>
